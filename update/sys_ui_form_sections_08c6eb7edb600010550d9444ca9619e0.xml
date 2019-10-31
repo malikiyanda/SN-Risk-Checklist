@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="08c6eb7edb600010550d9444ca9619e0" sys_domain="global" table="x_339413_risk_list_risk_list" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-21 13:21:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08c62f7edb600010550d9444ca961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_339413_risk_list_risk_list" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">08c6eb7edb600010550d9444ca9619e0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">c4c6eb7edb600010550d9444ca9619dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-21 13:21:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-21 13:21:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04c62f7edb600010550d9444ca961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_339413_risk_list_risk_list" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">08c6eb7edb600010550d9444ca9619e0</sys_ui_form>
+            <sys_ui_section caption="Q1" display_value="Q1" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">00c6eb7edb600010550d9444ca9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-21 13:21:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-21 13:21:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84c62f7edb600010550d9444ca96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_339413_risk_list_risk_list" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">08c6eb7edb600010550d9444ca9619e0</sys_ui_form>
+            <sys_ui_section caption="Q2" display_value="Q2" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">88c6eb7edb600010550d9444ca9619dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-21 13:21:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-21 13:21:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88c62f7edb600010550d9444ca96190f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_339413_risk_list_risk_list" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">08c6eb7edb600010550d9444ca9619e0</sys_ui_form>
+            <sys_ui_section caption="Q3" display_value="Q3" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">04c6eb7edb600010550d9444ca9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-21 13:21:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-21 13:21:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80c62f7edb600010550d9444ca961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_339413_risk_list_risk_list" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">08c6eb7edb600010550d9444ca9619e0</sys_ui_form>
+            <sys_ui_section caption="Q4" display_value="Q4" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">8cc6eb7edb600010550d9444ca9619de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-21 13:21:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-21 13:21:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cc62f7edb600010550d9444ca961916</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_339413_risk_list_risk_list" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">08c6eb7edb600010550d9444ca9619e0</sys_ui_form>
+            <sys_ui_section caption="Q5" display_value="Q5" name="x_339413_risk_list_risk_list" sys_domain="global" view="84c6eb7edb600010550d9444ca9619d8">08c6eb7edb600010550d9444ca9619df</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-21 13:21:19</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_339413_risk_list_risk_list</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-21 13:21:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08c6eb7edb600010550d9444ca9619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_339413_risk_list_risk_list</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+            <sys_update_name>sys_ui_form_sections_08c6eb7edb600010550d9444ca9619e0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-21 13:21:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Ticket Handling and Compliance" name="Ticket_Handling_and_Compliance">84c6eb7edb600010550d9444ca9619d8</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

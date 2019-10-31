@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="risk_area" label="Risk Area" language="en" table="x_339413_risk_list_risk_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>risk_area</element>
+            <help/>
+            <hint/>
+            <label>Risk Area</label>
+            <language>en</language>
+            <name>x_339413_risk_list_risk_list</name>
+            <plural>Risk Areas</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-29 14:50:06</sys_created_on>
+            <sys_id>b2c78d61db700010550d9444ca96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Risk Area</sys_name>
+            <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+            <sys_update_name>sys_documentation_x_339413_risk_list_risk_list_risk_area_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-29 14:50:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
