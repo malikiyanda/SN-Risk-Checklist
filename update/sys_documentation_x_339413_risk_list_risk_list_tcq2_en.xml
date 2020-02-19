@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tcq2" label="Is there a trend of increase in number of  P1, P2 tickets" language="en" table="x_339413_risk_list_risk_list">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tcq2</element>
+            <help/>
+            <hint/>
+            <label>Is there a trend of increase in number of  P1, P2 tickets</label>
+            <language>en</language>
+            <name>x_339413_risk_list_risk_list</name>
+            <plural>Is there a trend of increase in number of  P1, P2 tickets</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-14 19:14:30</sys_created_on>
+            <sys_id>48cd5cf6dbc10010550d9444ca9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Is there a trend of increase in number of  P1, P2 tickets</sys_name>
+            <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+            <sys_update_name>sys_documentation_x_339413_risk_list_risk_list_tcq2_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-14 19:14:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

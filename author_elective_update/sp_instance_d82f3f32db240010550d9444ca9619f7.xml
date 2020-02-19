@@ -57,7 +57,7 @@
 	}
 }]]></widget_parameters>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=d82f3f32db240010550d9444ca9619f7"/>
+    <sys_translated_text action="DELETE" query="documentkey=d82f3f32db240010550d9444ca9619f7"/>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
         <application display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</application>

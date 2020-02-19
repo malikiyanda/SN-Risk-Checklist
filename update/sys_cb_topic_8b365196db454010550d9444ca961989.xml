@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category/>
+        <connect_queue/>
+        <description>testing virtual flow</description>
+        <flexible_conversation_switching>true</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.13",
+  "goals": {
+    "e08979bf93d349e4a45c1c976cc74cde": {
+      "id": "e08979bf93d349e4a45c1c976cc74cde",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "98626e673c9f44a5a39226571221e9c6": {
+          "id": "98626e673c9f44a5a39226571221e9c6",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "3dae452485ae4bfca5bd7d4e50e06435": {
+          "id": "3dae452485ae4bfca5bd7d4e50e06435",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "a5d30f4e9a11487286331c51fbcbb038": {
+          "id": "a5d30f4e9a11487286331c51fbcbb038",
+          "stepType": "TextOutput",
+          "name": "Inro ",
+          "value": {
+            "value": "Hi how can i hekp with your risks",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "5c6ef6270146434fb8431717599933d9",
+          "edgeType": "Edge",
+          "source": "98626e673c9f44a5a39226571221e9c6",
+          "target": "a5d30f4e9a11487286331c51fbcbb038",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "f2cc5a9c925942e8b9d4aeed484aa0f4",
+          "edgeType": "Edge",
+          "source": "a5d30f4e9a11487286331c51fbcbb038",
+          "target": "3dae452485ae4bfca5bd7d4e50e06435",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>new flow</key_phrases>
+        <live_agent>false</live_agent>
+        <name>new flow</name>
+        <nlu_intent/>
+        <nlu_model/>
+        <nlu_provider/>
+        <roles>user,admin</roles>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-13 10:04:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8b365196db454010550d9444ca961989</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>new flow</sys_name>
+        <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+        <sys_update_name>sys_cb_topic_8b365196db454010550d9444ca961989</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-13 10:04:54</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=8b365196db454010550d9444ca961989"/>
+</record_update>

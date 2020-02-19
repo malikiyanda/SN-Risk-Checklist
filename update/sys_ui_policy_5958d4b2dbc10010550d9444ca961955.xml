@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_339413_risk_list_risk_list">q1=^ORq1=no^EQ<item display_value="-- None --" endquery="false" field="q1" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item display_value="No" endquery="false" field="q1" goto="false" newquery="false" operator="=" or="true" value="no"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	
+
+}]]></script_true>
+        <set_values/>
+        <short_description>show and hide</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-14 18:51:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5958d4b2dbc10010550d9444ca961955</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>show and hide</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+        <sys_update_name>sys_ui_policy_5958d4b2dbc10010550d9444ca961955</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-14 18:56:59</sys_updated_on>
+        <table>x_339413_risk_list_risk_list</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

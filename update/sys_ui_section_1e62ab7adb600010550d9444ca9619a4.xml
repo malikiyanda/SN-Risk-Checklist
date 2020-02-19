@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-29 14:50:07</sys_created_on>
-            <sys_id>c7c78d61db700010550d9444ca961970</sys_id>
+            <sys_created_on>2019-11-14 18:42:50</sys_created_on>
+            <sys_id>c0861832dbc10010550d9444ca961905</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_339413_risk_list_risk_list" sys_domain="global" view="Default view">1e62ab7adb600010550d9444ca9619a4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-29 14:50:07</sys_updated_on>
+            <sys_updated_on>2019-11-14 18:42:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-29 14:50:07</sys_created_on>
-            <sys_id>cfc78d61db700010550d9444ca961970</sys_id>
+            <sys_created_on>2019-11-14 18:42:50</sys_created_on>
+            <sys_id>44861832dbc10010550d9444ca961905</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_339413_risk_list_risk_list" sys_domain="global" view="Default view">1e62ab7adb600010550d9444ca9619a4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-29 14:50:07</sys_updated_on>
+            <sys_updated_on>2019-11-14 18:42:50</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,27 @@
             <element>risk_area</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-10-29 14:50:07</sys_created_on>
-            <sys_id>43c78d61db700010550d9444ca961971</sys_id>
+            <sys_created_on>2019-11-14 18:42:50</sys_created_on>
+            <sys_id>c4861832dbc10010550d9444ca961905</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_339413_risk_list_risk_list" sys_domain="global" view="Default view">1e62ab7adb600010550d9444ca9619a4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-29 14:50:07</sys_updated_on>
+            <sys_updated_on>2019-11-14 18:42:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mitigation</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-14 18:42:50</sys_created_on>
+            <sys_id>48861832dbc10010550d9444ca961905</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_339413_risk_list_risk_list" sys_domain="global" view="Default view">1e62ab7adb600010550d9444ca9619a4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-14 18:42:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

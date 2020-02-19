@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Risk List" max_length="40" name="x_339413_risk_list_risk_list" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the customer SLAs being met in the last qtr" max_length="40" name="ccq1" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Impact" max_length="40" name="ccq1_impact" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Impact(CCQ2)" max_length="40" name="ccq2_impact" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Impact" max_length="40" name="impact_q1" type="string" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="3" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="9" sequence="2" value="9"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="yes" label="Logging Required" mandatory="true" max_length="40" name="logging_required" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Mitigation Status" max_length="40" name="mitigation" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Mitigation Plan" max_length="40" name="mitigation_plan" type="string"/>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="integer" use_dynamic_default="true"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Are critical resources identifed for the project" max_length="40" name="q1" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Probability" max_length="40" name="probability_q1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="3" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="9" sequence="2" value="9"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is BP Providing Positive Feedback On 90% BAU Tickets After Resolution?" max_length="40" name="q1" type="string" use_dependent_field="true">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="no"/>
@@ -30,9 +63,45 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="ticket handling and compliance" label="Risk Area" mandatory="true" max_length="40" name="risk_area" type="string">
             <choice>
+                <element inactive="true" inactive_on_update="true" label="-- None --" sequence="0" value="-- None --"/>
+                <element inactive="true" inactive_on_update="true" label="None" sequence="0" value="None"/>
                 <element inactive_on_update="false" label="Ticket Handling and Compliance" sequence="0" value="ticket handling and compliance"/>
                 <element inactive_on_update="false" label="Contract Compliance and Changes" sequence="1" value="contract compliance and changes"/>
                 <element inactive_on_update="false" label="Project Management" sequence="2" value="project management"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Ticket Handling and Compliance" max_length="40" name="tcq1" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is there a trend of increase in number of  P1, P2 tickets" max_length="40" name="tcq2" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Impact" max_length="40" name="tcq2_impact" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Possability" max_length="40" name="tcq2_possability" type="string">
+            <choice/>
+        </element>
+        <element label="Risk Score" max_length="40" name="tcq2_riskscore" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Q1-Impact" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="3" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="9" sequence="2" value="9"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Q2-Impact" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="3" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="9" sequence="2" value="9"/>
             </choice>
         </element>
     </element>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>q1_ans</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-14 18:56:15</sys_created_on>
+        <sys_id>f58994f2dbc10010550d9444ca96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>q1_ans</sys_name>
+        <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f58994f2dbc10010550d9444ca96196b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-14 18:56:15</sys_updated_on>
+        <table>x_339413_risk_list_risk_list</table>
+        <ui_policy display_value="show and hide">5958d4b2dbc10010550d9444ca961955</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

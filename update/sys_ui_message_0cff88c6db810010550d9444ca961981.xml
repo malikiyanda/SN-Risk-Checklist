@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <key>Risk list</key>
+        <language>en</language>
+        <message>Risk list</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-12 10:18:44</sys_created_on>
+        <sys_id>0cff88c6db810010550d9444ca961981</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Risk list</sys_name>
+        <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+        <sys_update_name>sys_ui_message_0cff88c6db810010550d9444ca961981</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-12 10:18:44</sys_updated_on>
+    </sys_ui_message>
+</record_update>

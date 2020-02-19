@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>hiding all sections</description>
+        <field>risk_area</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hiding All Sections Script (onload)</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	var sections = g_form.getSections();
+	sections[1].style.display = 'none';
+    sections[2].style.display = 'none';
+	sections[3].style.display = 'none';
+	sections[4].style.display = 'none';
+	
+// 	var a = g_form.getValue('risk_area');
+	
+// 	if(a == 'Ticket Handling and Compliance'){
+// 		sections[1].style.display = 'block';
+// 	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-14 15:41:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0eabe3a2db010010550d9444ca9619ee</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Hiding All Sections Script (onload)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+        <sys_update_name>sys_script_client_0eabe3a2db010010550d9444ca9619ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-14 17:43:55</sys_updated_on>
+        <table>x_339413_risk_list_risk_list</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

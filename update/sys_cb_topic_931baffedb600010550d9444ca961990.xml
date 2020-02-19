@@ -40,46 +40,24 @@
           "stepType": "TextOutput",
           "name": "Introduction ",
           "value": {
-            "value": "Hello! I can help with Create or Update  your risks",
+            "value": "Hi Would You like to  Create or Update the Risk  Checklist",
             "mode": "simple"
           },
           "applicability": {
             "value": "",
             "mode": "query"
           }
-        },
-        "6ebc9f3effc14795926d86e780131e98": {
-          "stepType": "ChoicePrompt",
-          "name": "Create or Update",
-          "prompt": {
-            "value": "What would you like to do ?",
-            "mode": "simple"
-          },
-          "confirmMessage": {
-            "value": "",
-            "mode": "simple"
-          },
-          "acknowledgeMsg": {
-            "value": "",
-            "mode": "simple"
-          },
-          "applicability": {
-            "value": "",
-            "mode": "query"
-          },
-          "optional": false,
-          "defaultValue": {
-            "value": "",
-            "mode": "simple"
-          },
-          "variableId": "caab67574aca41249c3d6cd2eab92de4",
-          "id": "6ebc9f3effc14795926d86e780131e98",
-          "withNluUserInput": false,
-          "skipIfFulfilled": false,
-          "entity": ""
         }
       },
       "edges": [
+        {
+          "id": "68aac86027964764beb93d13d168c6e4",
+          "edgeType": "Edge",
+          "source": "124a23c177614d38b5af49af8aad0897",
+          "target": "74b1116a9cd942908ae39c2ba2286cc5",
+          "sourcePort": "",
+          "targetPort": ""
+        },
         {
           "id": "663fd9c653794c0398d1c44f99a81762",
           "edgeType": "Edge",
@@ -87,45 +65,11 @@
           "target": "124a23c177614d38b5af49af8aad0897",
           "sourcePort": "",
           "targetPort": ""
-        },
-        {
-          "id": "68aac86027964764beb93d13d168c6e4",
-          "edgeType": "Edge",
-          "source": "124a23c177614d38b5af49af8aad0897",
-          "target": "6ebc9f3effc14795926d86e780131e98",
-          "sourcePort": "",
-          "targetPort": ""
-        },
-        {
-          "id": "23cb0b843d3c4571b1dd464720fa0789",
-          "edgeType": "Edge",
-          "source": "6ebc9f3effc14795926d86e780131e98",
-          "target": "74b1116a9cd942908ae39c2ba2286cc5",
-          "sourcePort": "",
-          "targetPort": ""
         }
       ]
     }
   },
-  "variables": {
-    "caab67574aca41249c3d6cd2eab92de4": {
-      "id": "caab67574aca41249c3d6cd2eab92de4",
-      "name": "create_or_update",
-      "label": "Create Or Update",
-      "varType": "choice",
-      "choices": [
-        {
-          "label": "Create ",
-          "value": "create"
-        },
-        {
-          "label": "Update",
-          "value": "update"
-        }
-      ],
-      "category": "vaInputs"
-    }
-  }
+  "variables": {}
 }</graph>
         <key_phrases>Risk list</key_phrases>
         <live_agent>false</live_agent>
@@ -139,14 +83,14 @@
         <sys_created_on>2019-10-21 13:40:23</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>931baffedb600010550d9444ca961990</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Risk list</sys_name>
         <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
         <sys_policy/>
         <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
         <sys_update_name>sys_cb_topic_931baffedb600010550d9444ca961990</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-21 13:42:45</sys_updated_on>
+        <sys_updated_on>2019-11-13 14:36:13</sys_updated_on>
         <variables/>
     </sys_cb_topic>
     <sys_variable_value action="delete_multiple" query="document_key=931baffedb600010550d9444ca961990"/>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css>@media (max-width: 767px) {
+  .wrapper-xl {
+    padding: 25px 15px !important;
+  }
+  .text-4x {
+    font-size: 3em;
+  }
+}</css>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">0cc6408cdb150010550d9444ca961920</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 14:46:26</sys_created_on>
+        <sys_id>40c6408cdb150010550d9444ca961923</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Welcome to Risk Checklist Portal- Landing</sys_name>
+        <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+        <sys_update_name>sp_instance_40c6408cdb150010550d9444ca961923</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 15:00:13</sys_updated_on>
+        <title>Welcome to Risk Checklist Portal- Landing</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"wrapper-xl welcome\"><h1 class=\"text-white text-4x\">${Welcome to the<br>Risk Checklist&nbsp;Portal}</h1><h3 class=\"text-white\">${Select a catergory and complete a questionnaire}</h3></div>",
+		"displayValue": "<div class=\"wrapper-xl welcome\">\n<h1 class=\"text-white text-4x\">${Welcome to the<br />Risk Checklist&nbsp;Portal}</h1>\n<h3 class=\"text-white\">${Select a catergory and complete a questionnaire}</h3>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=40c6408cdb150010550d9444ca961923"/>
+</record_update>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter table="asmt_metric_type">sys_id=c7a8d400db950010550d9444ca9619d6^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="c7a8d400db950010550d9444ca9619d6"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <metric_type display_value="Ticket handling and compliance">c7a8d400db950010550d9444ca9619d6</metric_type>
+        <name>Ticket handling and compliance</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 16:51:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f763200cdb950010550d9444ca9619b9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Ticket handling and compliance</sys_name>
+        <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+        <sys_update_name>asmt_metric_category_f763200cdb950010550d9444ca9619b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 16:51:46</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <total_metrics>4</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=f763200cdb950010550d9444ca9619b9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</application>
+        <file_path/>
+        <instance_id>542eff61db3ed7408264f70fbf961934</instance_id>
+        <instance_name>dev61833</instance_name>
+        <name>asmt_metric_category_f763200cdb950010550d9444ca9619b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter table="asmt_metric_type">sys_id=c7a8d400db950010550d9444ca9619d6^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="c7a8d400db950010550d9444ca9619d6"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><metric_type display_value="Ticket handling and compliance">c7a8d400db950010550d9444ca9619d6</metric_type><name>Ticket handling and compliance</name><order>100</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-18 16:51:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f763200cdb950010550d9444ca9619b9</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Ticket handling and compliance</sys_name><sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package><sys_policy/><sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope><sys_update_name>asmt_metric_category_f763200cdb950010550d9444ca9619b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-18 16:51:46</sys_updated_on><table>asmt_metric_type</table><total_metrics>4</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=f763200cdb950010550d9444ca9619b9"/></record_update>]]></payload>
+        <payload_hash>-708305308</payload_hash>
+        <record_name>Ticket handling and compliance</record_name>
+        <reverted_from/>
+        <source>97bfeb4adbb00010550d9444ca961985</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 16:51:46</sys_created_on>
+        <sys_id>c073200cdb950010550d9444ca9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e7f6d66bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 16:51:46</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>4c73200c7b950010761a9f16b56da6dd</update_guid>
+        <update_guid_history>4c73200c7b950010761a9f16b56da6dd:-708305308,4c73200cc3950010edd01ce1777592d8:-1575357533,4c73200c1c950010bedec46159a6c8d3:1852557538,4c73200ca5950010808a3aba895c7ac0:985505313,0473200c2c950010455a7672ce7963bd:-1602070028</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Ticket handling and compliance">7bb6a040dbd50010550d9444ca9619e8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-18 17:06:14</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>060c9f490c224170ba7dbe58d9881004</sys_id>
+        <sys_metadata>f763200cdb950010550d9444ca9619b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ticket handling and compliance</sys_name>
+        <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
+        <sys_scope_delete display_value="">437e83f655c1407cb3773e6eb07cf784</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_f763200cdb950010550d9444ca9619b9</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_f763200cdb950010550d9444ca9619b9">c073200cdb950010550d9444ca9619de</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-18 17:06:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

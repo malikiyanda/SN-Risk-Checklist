@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="q1" label="Are critical resources identifed for the project" language="en" table="x_339413_risk_list_risk_list">
+    <sys_documentation element="q1" label="Is BP Providing Positive Feedback On 90% BAU Tickets After Resolution?" language="en" table="x_339413_risk_list_risk_list">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>q1</element>
             <help/>
             <hint/>
-            <label>Are critical resources identifed for the project</label>
+            <label>Is BP Providing Positive Feedback On 90% BAU Tickets After Resolution?</label>
             <language>en</language>
             <name>x_339413_risk_list_risk_list</name>
-            <plural>Are critical resources identifed for the projects</plural>
+            <plural>Is BP Providing Positive Feedback On 90% BAU Tickets After Resolution?s</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-10-21 13:21:19</sys_created_on>
             <sys_id>04c62f7edb600010550d9444ca96191b</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>Are critical resources identifed for the project</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Is BP Providing Positive Feedback On 90% BAU Tickets After Resolution?</sys_name>
             <sys_package display_value="Risk list Converstion " source="x_339413_risk_list">0f22ab76db600010550d9444ca9619ca</sys_package>
             <sys_policy/>
             <sys_scope display_value="Risk list Converstion ">0f22ab76db600010550d9444ca9619ca</sys_scope>
             <sys_update_name>sys_documentation_x_339413_risk_list_risk_list_q1_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-10-21 13:30:01</sys_updated_on>
+            <sys_updated_on>2019-11-13 14:59:59</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
